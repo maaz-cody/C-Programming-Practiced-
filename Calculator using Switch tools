@@ -1,0 +1,41 @@
+/*
+Name: Maaz Ismail Sayyed
+UIN: 251M019
+Class: FE Mechanical Engineering
+Div: F(F1)
+*/
+
+
+#include <stdio.h>
+
+int main()
+{
+   int num1=20, num2=30;
+   int choice;
+   printf("1. Addition\n2. Substraction\n3. Multiplication\n4. Division\n5. Exit\n");
+   scanf("%d",&choice);
+   switch(choice)
+   {
+       case 1:
+       printf("Addition is %d",num1+num2);
+       break;
+       case 2:
+       printf("Substraction is %d",num1-num2);
+       break;
+       case 3:
+       printf("Multiplication is %d",num1*num2);
+       break;
+       case 4:
+       printf("Division is %f",(float)num1/num2);
+       break;
+       case 5:
+       printf("Thankyou for using Maaz's Calculator");
+       break;
+       default:
+       printf("you fool, put a valid case");
+   }
+   
+   
+
+    return 0;
+}
